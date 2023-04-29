@@ -1,0 +1,21 @@
+//KARLENY M.G.  
+
+// Pedimos al usuario que ingrese dos números
+let num1 = prompt("Ingresa el primer número:");
+let num2 = prompt("Ingresa el segundo número:");
+
+// Convertimos los valores ingresados por el usuario a números
+num1 = Number(num1);
+num2 = Number(num2);
+
+// Realizamos las operaciones básicas
+let suma = num1 + num2;
+let resta = num1 - num2;
+let multiplicacion = num1 * num2;
+let division = num1 / num2;
+
+// Mostramos los resultados en consola
+console.log("La suma de los números es: " + suma);
+console.log("La resta de los números es: " + resta);
+console.log("La multiplicación de los números es: " + multiplicacion);
+console.log("La división de los números es: " + division);
